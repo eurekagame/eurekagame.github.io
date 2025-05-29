@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills and Traits - Eureka</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Eureka Quick Reference</h1>
+     <div class="intro-text">
+      <p>
+        Based on the work of the creators of Lancer's Quick Reference Rules, 
+        here's all the most important information contained in the sprawling 
+        700-page <em>Eureka</em> rulebook, as of summer 2025. Clinking on any 
+        of the in-text hyperlinks will send you to our complete rule compendium
+        with examples and play advice straight from the rulebook.
+      </p>
+     </div>
+
+ <section class="main-section">
+    <p>Eureka has no character classes. Instead, players build their investigators by setting bonuses to
+        some of the following skills and by choosing specific situational bonuses called traits. If you're
+        having trouble building a character, try thinking of archtypical detectives you enjoy from fictional 
+        media. The list of Traits includes many meant to evoke these archetypes. Tell your Narrator your 
+        concert as soon as possible for a story experience more tailored to your character! <em>Players should 
+        not show their character sheets to anyone except the Narrator unless absolutely necessary</em>. 
+    </p>
+    <div class="para-break"></div>
+ <h2>Skills</h2>
+    <p>
+        Skills are the main way in which Eureka characters interact with the world. All investigators 
+        have the same set of Core Skills, as seen on their character sheet. Every Core Skill can have a 
+        rating[1] between -3 and +3. This rating provides the modifier on any roll with that Skill.
+        <em>The only rule of Skill allocation is that the cumulative rating of all of an investigator's Skills 
+            should add up to 0.</em>
+    </p>
+    <div class="para-break"></div>
+    <p>
+        A 0 usually (but not always) represents average competency, a -3 complete incompetence, and a +3 an 
+        exceptional level of experience and/or training. A +4 represents absolute mastery of a subject, 
+        such as olympic-level ability. A character is likely to only have a +3 in a skill if they have a 
+        lot of specialized education or a decade of experience.
+    </p>
+<div class="skill-tabs">
+  <!-- Tab Buttons -->
+  <div class="tab-buttons">
+    <button class="tab-button active" data-tab="interpersonal">Interpersonal</button>
+    <button class="tab-button" data-tab="knowledge">Knowledge</button>
+    <button class="tab-button" data-tab="physical">Physical</button>
+    <button class="tab-button" data-tab="wealth">Wealth</button>
+  </div>
+
+  <!-- Tab Content --> 
+  <div id="interpersonal" class="tab-content active">
+  <div class="skill-item" data-category="interpersonal">
+    <div class="category-description">
+        <h2>Interpersonal Skills</h2>
+        <p>Interpersonal Skills measure an investigator's ability to interact socially with other characters 
+        to a desired effect. Interpersonal Skills, much like actual interpersonal interactions, can be 
+        ambiguous in their application. What if a line of dialogue is particularly fumbling or effective? 
+        Was that a threat or an argument?</p>
+    <p>To prevent this, try to, before rolling, describe your goal in the social interaction and what 
+        you think the best strategy to convince the other character is. Then roll the relevant skill.
+        After seeing the results of the roll, you can state your in-character dialogue. Interpersonal 
+        roll should only be called for when there is some risk, or the outcome is in question.</p>
+    </div>
+    <div class="skill-accordion">
+      <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Charm</span>
+        </button>
+        <div class="skill-details">
+          <p>
+                Charm is a general measure of how charismatic and personable a character is. Use 
+                this Skill when earning the trust or affection of others, vouching for oneself against 
+                an accusation, or when a character needs to open doors with a winning smile.
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-2</td><td>Offputting</td></tr>
+            <tr><td>-1</td><td>Tactless</td></tr>
+            <tr><td>+0</td><td>Personable</td></tr>
+            <tr><td>+1</td><td>Front Desk Clerk</td></tr>
+            <tr><td>+2</td><td>Socialite</td></tr>
+            <tr><td>+3</td><td>Ambassador</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Comfort</span>
+        </button>
+        <div class="skill-details">
+            <p>
+              Comfort is a measure of how good a character is at de-escalating tense situations and
+              soothing frayed nerves. Use this Skill when calming an agitated person, talking down a 
+              crazed gunman, or attempting to restore another investigator's <strong>Composure</strong>.
+              The difference between Comfort and Charm is usually that Comfort is used when attempting to 
+              earn people's trust in intense, dangerous situations while Charm is used to earn people's 
+              trust in a more relaxed environment.
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-2</td><td>Police Officer</td></tr>
+            <tr><td>-1</td><td>"...There, there"</td></tr>
+            <tr><td>+0</td><td>Personable</td></tr>
+            <tr><td>+1</td><td>Good Friend</td></tr>
+            <tr><td>+2</td><td>Therapist</td></tr>
+            <tr><td>+3</td><td>Hostage Negotiator</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Manipulate</span>
+        </button>
+        <div class="skill-details">
+            <p>
+              Manipulate is a measure of how good a character is at using deception to get 
+              a desired result. Use this Skill when tricking someone into going against their
+              own best interest, running a con on someone, or just plain lying. Clever investigators 
+              do not necessarily need to stray from the truth to mislead someone. In some rare
+              cases, this Skill can also be used when the investigator is actually telling the truth, but
+              that truth is just exceptionally hard to believe. 
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-2</td><td>No Poker Face</td></tr>
+            <tr><td>-1</td><td>Friend Whose Uncle Works at Nintendo</td></tr>
+            <tr><td>+1</td><td>Car Salesman</td></tr>
+            <tr><td>+2</td><td>Politician</td></tr>
+            <tr><td>+3</td><td>Cult Leader</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Seduce</span>
+        </button>
+        <div class="skill-details">
+            <p>
+              Seduce does not necessarily represent a character's physical attractiveness 
+              (although that can be a factor), but it is a measure of their ability to make 
+              themselves attractive, whether through words, attire, physical features, or anything 
+              else of the sort. Use this Skill when flirting incriminating information out of a suspect, 
+              distracting a lonely guard, or getting the target alone in a locked bedroom. In the right 
+              place, with the right person, a good Seduce roll can be much, much more effective
+              than a good Charm roll, though it may not be effective at all if the target does not swing that way.
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-1</td><td>Schlubby</td></tr>
+            <tr><td>+0</td><td>Joe Schmoe</td></tr>
+            <tr><td>+1</td><td>Your Hot Friend</td></tr>
+            <tr><td>+2</td><td>Sex Worker</td></tr>
+            <tr><td>+3</td><td>Romantic Novel Love Interest</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Social Cues</span>
+        </button>
+        <div class="skill-details">
+            <p>
+              Social Cues is a measure of how good a character is at reading social situations,
+              but not necessarily acting in them. Use this Skill when reading facial expressions, 
+              determining if someone is lying, or trying to “read the room.” It will tell an investigator 
+              how others around them seem to be feeling, and may provide a hint as to what their intentions 
+              might be or what kind of words might swing their mood in one's favor.
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-2</td><td>Can't read the room</td></tr>
+            <tr><td>+1</td><td>Socially Aware</td></tr>
+            <tr><td>+2</td><td>Professional 'Psychic'</td></tr>
+            <tr><td>+3</td><td>Columbo</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Threaten</span>
+        </button>
+        <div class="skill-details">
+            <p>
+              Like Seduce, Threaten does not necessarily represent a character's physically imposing 
+              form (although that can be a major factor), but it is a measure of their ability to make
+              themselves threatening by their words or appearance. Use this Skill when telling someone
+              what could happen to him or his loved ones if he doesn't unlock the door, or convincing 
+              some punk that he better go pick a fight with absolutely anybody else. Sufficiently threatening 
+              actions for some situations will not require a check - pointing a gun at an unarmed civilian usually doesn't 
+              have a significant risk of failure.
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-3</td><td>Wet Kitten</td></tr>
+            <tr><td>-2</td><td>Voice Cracks</td></tr>
+            <tr><td>+1</td><td>Bouncer</td></tr>
+            <tr><td>+2</td><td>Police Officer</td></tr>
+            <tr><td>+3</td><td>Wrestling Heel</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+ <div id="knowledge" class="tab-content">
+  <div class="skill-item" data-category="knowledge">
+    <div class="category-description">
+      <h2>Knowledge Skills</h2>
+      <p>
+          Knowledge Skills are measures of an investigator's, well, knowledge (or ability to quickly
+          find out information on the subject). As a reminder, there is no magical video
+          game sense in Eureka that automatically highlights all the clues in a room as soon as the
+          investigators walk in. By the same token, investigators do not need rolls to see what is in
+          front of them. Investigative Rolls are not made to find points of interest, they are used to
+          glean information from points of interest.
+      </p>
+      <p>
+         A lower degree of success (rather than a consequence) is usually the way to handle
+         Partial Successes on Knowledge rolls. However, sometimes a consequence is appropriate, and usually it will fall into one of two categories. Either examining a point
+         of interest takes a long time (which would consume a Tick), or the investigator leaves evidence that they have tampered with something.
+      </p>
+      </div>
+    <div class="skill-accordion">
+       <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Chemistry</span>
+        </button>
+        <div class="skill-details">
+          <p>
+                Chemistry represents a character's knowledge of chemistry and closely related fields. Use this Skill when
+                determining how long a rusty blade may have been sitting in a
+                creek, predicting what might result from the mixing of multiple chemicals, or producing a desired chemical reaction.
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-3</td><td>Mixes Chlorine and Bleach</td></tr>
+            <tr><td>+0</td><td>HS Science Student</td></tr>
+            <tr><td>+1</td><td>HS Science Teacher</td></tr>
+            <tr><td>+2</td><td>Pharmacist</td></tr>
+            <tr><td>+3</td><td>Chemist</td></tr>
+          </table>
+        </div>
+       </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Medicine</span>
+        </button>
+        <div class="skill-details">
+          <p>
+                Medicine is a measure of a character's general medical knowledge. Use 
+                this Skill when determining the cause of wounds on a body, identifying symptoms 
+                of an illness, or just recognizing complex medical jargon. (This Skill is also used to treat wounds).
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-2</td><td>Can Bandage a Boo-Boo</td></tr>
+            <tr><td>-1</td><td>Took a First Aid Class</td></tr>
+            <tr><td>+0</td><td>Boy Scout</td></tr>
+            <tr><td>+1</td><td>First Responder</td></tr>
+            <tr><td>+2</td><td>Registered Nurse</td></tr>
+            <tr><td>+3</td><td>Surgeon</td></tr>
+          </table>
+        </div>
+       </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Nature</span>
+        </button>
+        <div class="skill-details">
+          <p>
+              Nature is a measure of a character's knowledge of the natural
+              world, survival skills, and basically anything else you're supposed to learn in Boy Scouts. Use this Skill when identifying local fauna from
+              their tracks, determining what mushrooms are safe to eat, or avoiding frostbite during a cold winter night lost in the mountains.            
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-2</td><td>Alpha Male</td></tr>
+            <tr><td>-1</td><td>City Slicker</td></tr>
+            <tr><td>+0</td><td>Hiker</td></tr>
+            <tr><td>+1</td><td>Boy Scout</td></tr>
+            <tr><td>+2</td><td>Field Biologist</td></tr>
+            <tr><td>+3</td><td>Park Ranger</td></tr>
+          </table>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Paperwork</span>
+        </button>
+        <div class="skill-details">
+          <p>
+              Paperwork is a measure of a character's ability to quickly parse most types of written
+              information. A high Paperwork rating indicates the ability to read quickly and pick out the
+              most important bits of information from the text. Use this Skill when gleaning information from the papers on the police chief's desk at a
+              glance, reading more difficult forms of writing such as shorthand or flowery cursive, searching the library's messy card catalog, or to recognize when the numbers in the
+              account book just don't add up. Paperwork is only needed to either read
+              quickly or successfully pick out important information from junk data. If the investigators find a single page of information, there is no need for a roll. 
+           </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-3</td><td>Illiterate</td></tr>
+            <tr><td>-1</td><td>Didn't finish HS</td></tr>
+            <tr><td>+0</td><td>Finished HS</td></tr>
+            <tr><td>+1</td><td>Bookworm</td></tr>
+            <tr><td>+2</td><td>Accountant</td></tr>
+            <tr><td>+3</td><td>Contract Lawyer</td></tr>
+          </table>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name"><span class="blacked-out">Blacked Out</span></span>
+        </button>
+        <div class="skill-details">
+          <div class="skill-text">
+          <p>
+              <span class="blacked-out">Blacked Out</span> is a measure of a character's <span class="blacked-out">knowledge of folklore,
+              purported supernatural phenomenon, and occultism, real or imagined.</span> Use this skill when <span class="blacked-out">
+              identifying what these occult symbols might mean and what they might be intended to do, remembering as many obscure vampire weaknesses as possible, or
+              figuring out if a strange and baffling illness might actually be a curse. The Blacked Out Skill</span> <strong>works in a unique way.</strong>
+              <span class="blacked-out">When used for an Investigative Roll or to check knowledge of apparently supernatural phenomena, a Partial or Full Success won't give concrete
+              answers, but will instead give leads to follow up on. The investigator has heard of a book that discusses the topic, knows about an expert they can consult, or has heard of
+              an incident they can look into. Those leads may or may not then have the “right” answer.</span>
+            </p>
+            <p>
+              This Skill, pronounced as the “Blacked Out Skill” or “Redacted Skill,” is marked out on the character sheet like one would mark
+              out a classified document. If you don't know what this Skill is, you're not supposed to! This Skill and its uses are a mystery to new players. All you need to know is that it is a
+              real Skill that may be called for during an adventure. It is up to you if your investigator would have points in it or wrench it dry for Skill ratings. The type of person who would
+              invest into an unknown, mysterious Skill is just the type of person who would have high marks in this.
+            </p>
+          </div>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Technology</span>
+        </button>
+        <div class="skill-details">
+          <p>
+              Technology is a measure of a character's knowledge of complex machinery, electronics, and 
+              computers. Use this Skill when searching a university's poorly coded electronic database, exploiting a vulnerability
+              to infiltrate a company's systems, fixing a busted flashlight, or pulling useful data off a damaged hard drive.
+           </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-1</td><td>Uses Tools Occasionally</td></tr>
+            <tr><td>+0</td><td>Model Swapper</td></tr>
+            <tr><td>+1</td><td>Handyman</td></tr>
+            <tr><td>+2</td><td>Programmer</td></tr>
+            <tr><td>+3</td><td>Engineer</td></tr>
+          </table>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Visual Calculus</span>
+        </button>
+        <div class="skill-details">
+          <p>
+              Visual Calculus is a measure of a character's ability to notice extremely small details, as
+              well as extrapolate the cause and effect that led to those details being present. Use this Skill when assessing how
+              a window frame might have been broken open, identifying what made a mark on a table, or determining
+              how long ago boot prints were made.
+           </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-1</td><td>Inattentive</td></tr>
+            <tr><td>+1</td><td>Architect</td></tr>
+            <tr><td>+2</td><td>Crime Scene Analyst</td></tr>
+            <tr><td>+3</td><td>Professional Pool Player</td></tr>
+            <tr><td>+4</td><td>Sherlock Holmes</td></tr>
+          </table>
+        </div>
+        </div>
+       </div>
+    </div>
+  </div>
+  <div id="physical" class="tab-content">
+  <div class="skill-item" data-category="physical">
+    <div class="category-description">
+      <h2>Physical Skills</h2>
+      <p>
+          Physical Skills are a measure of an investigator's ability to do things, y'know, physically. Physical Skills are used frequently in combat.
+          Many Physical Skills can also be used as Knowledge Skills, and whenever possible this will be noted in the Skill description. 
+      </p>
+      <p>
+        <ul>
+        Physical Skills cover a wide range of actions, and are the most likely Skills to be used for Non-Investigative Rolls. Sometimes, such as in combat or in chases, the results of
+        Partial Success or Failure are very specific, and will be outlined in the appropriate section. For scenarios where the result is not obvious or
+        strictly defined, here are some possibilities:</ul>
+          <li>The investigator succeeds, but takes much longer than they'd like to do so. (This would consume 1 Tick).</li>
+          <li>The investigator over-exerts themself and takes 1 Superficial Damage, either from bodily pain or from scraping on something hard or sharp in the environment.</li>
+          <li>The investigator succeeds, but leaves evidence - immediate or lasting - of their involvement. For example, making a bunch of noise that calls the attention of the
+              security guard, or breaking something that leaves evidence of tampering and cannot be easily cleaned up by the investigator.</li>
+      </p>
+      <div class="skill-accordion">
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Athletics</span>
+        </button>
+        <div class="skill-details">
+          <p>
+              Athletics is a measure of a character's general physical fitness and, well, athleticism. Use
+              this Skill when a character is running, climbing, swimming, lifting heavy objects, or anything else which requires a high degree of
+              strength and/or stamina. This skill is also used for the more basic moves in melee combat, such as punching and kicking, and determines how well a character handles
+              bodily harm. The Athletics Skill can also be used as a Knowledge Skill, such as to tell at a glance how easy something might be to lift or tell how strong somebody is just by
+              looking at them. Additionally, Manually powered vehicles are operated using the Athletics Skill. Using any land vehicle in an off-road environment confers a -3 penalty.
+           </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-2</td><td>Noodle Arms</td></tr>
+            <tr><td>-1</td><td>Active Lifestyle</td></tr>
+            <tr><td>+0</td><td>Jogger</td></tr>
+            <tr><td>+1</td><td>Jogger</td></tr>
+            <tr><td>+2</td><td>Firefighter</td></tr>
+            <tr><td>+3</td><td>Pro Athlete</td></tr>
+          </table>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Close Combat</span>
+        </button>
+        <div class="skill-details">
+           <p>
+              Close Combat is a measure of a character's Skill with the martial arts, and is used for
+              most advanced moves in melee combat as well as using close-combat weapons. This Skill can also be used like
+              a Knowledge Skill, such as to identify the place of origin of an attacker's technique, to notice that the
+              suspect stands like a fighter, or to identify what level of practice a person's belt color denotes.
+           </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-1</td><td>No Belt</td></tr>
+            <tr><td>+1</td><td>Yellow Belt</td></tr>
+            <tr><td>+2</td><td>Blue Belt</td></tr>
+            <tr><td>+3</td><td>Black Belt</td></tr>
+          </table>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Driving</span>
+        </button>
+        <div class="skill-details">
+           <p>
+              Driving is a measure of a character's skill with and knowledge of the operation of motor vehicles. Use this Skill
+              when fixing a mechanical problem, when making a hairpin turn at 60mph, or threading through heavy traffic. (For operation of
+              motor vehicles that behave significantly differently from cars, see “Optional/Write-in Skills” below.) This Skill may also be
+              used as a Knowledge Skill, such as pointing out makes and models of cars at a glance, identifying tire tracks, or diagnosing
+              a problem based on engine noises.
+           </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-3</td><td>Never Behind the Wheel</td></tr>
+            <tr><td>-1</td><td>Commuter</td></tr>
+            <tr><td>+0</td><td>Taxi Driver</td></tr>
+            <tr><td>+1</td><td>Car Enthusiast</td></tr>
+            <tr><td>+2</td><td>Racecar Driver</td></tr>
+            <tr><td>+3</td><td>Stunt Driver</td></tr>
+          </table>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Firearms</span>
+        </button>
+        <div class="skill-details">
+           <p>
+              Firearms is a measure of a character's knowledge of the maintenance and operation of firearms. Use this Skill when
+              loading, aiming, and controlling firearms, but note that the skill itself has no influence on the damage of a bullet
+              penetrating the human body. This Skill can also be used like a Knowledge Skill, such as to identify what kind of gun might
+              have fired spent brass casings, knowing what firearms and accessories are and aren't legal to own in a particular state, and how far away gunshots
+              probably were.
+           </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-2</td><td>Never Seen a Gun IRL</td></tr>
+            <tr><td>+0</td><td>Shot Targets Once or Twice</td></tr>
+            <tr><td>+1</td><td>Hunter</td></tr>
+            <tr><td>+2</td><td>Soldier</td></tr>
+            <tr><td>+3</td><td>Special Forces</td></tr>
+          </table>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Reflexes</span>
+        </button>
+        <div class="skill-details">
+           <p>
+              Reflexes is a measure of a character's ability to react quickly and appropriately to
+              unexpected situations which demand immediate action. Use this Skill when a character needs to act
+              quickly without time to think, such as drawing as soon as a gangster reaches for his gun, gaining the initiative in a fist fight, diving out of
+              the way of an oncoming car, or even just catching a small object without looking like an idiot.
+           </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-1</td><td>Easily Distracted</td></tr>
+            <tr><td>+1</td><td>Gamer</td></tr>
+            <tr><td>+2</td><td>Tennis Player</td></tr>
+            <tr><td>+3</td><td>Pro Ping Pong Player</td></tr>
+          </table>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Senses</span>
+        </button>
+        <div class="skill-details">
+           <p>
+              Senses is a measure of a character's alertness and the acuteness of their five senses. Use this Skill when detecting lurking danger, such as spotting a man in
+              camouflage, or smelling natural gas from a leak inside a house. In some cases, the Narrator may want to note the Senses score of
+              each investigator and make secret Senses rolls for them, so that the players don't know anything their investigators don't know. Remember, clues and locations 
+              will be verbally described - a Senses roll is not a replacement for investigation! <em>
+              The Senses Skill takes relevant penalties when there is interference in the environment - investigators trying to hide might give their opponents contextual modifiers by hiding
+              in a dark and noisy environment! </em>
+            </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-1</td><td>Listens to Music Loud</td></tr>
+            <tr><td>+1</td><td>Security Guard</td></tr>
+            <tr><td>+2</td><td>Secret Service Agent</td></tr>
+            <tr><td>+3</td><td>Batman</td></tr>
+          </table>
+        </div>
+        </div>
+        <div class="skill-item">
+        <button class="skill-header">
+          <span class="skill-name">Stealth</span>
+        </button>
+        <div class="skill-details">
+           <p>
+              Stealth is a measure of how discreet or quiet a character can be. Use this Skill when moving silently
+              past a guard, grabbing keys off the table when nobody is looking, sticking a listening device under the police
+              chief's desk, or smuggling a weapon into a party. <a href="index.html#skills" class="keyword-link">There will 
+                be some situations where Stealth will be contested by another character's Senses.</a>
+           </p>
+          <table class="rating-table">
+            <caption>Example Ratings</caption>
+            <tr><td>-2</td><td>Clumsy</td></tr>
+            <tr><td>+0</td><td>Midnight Snacker</td></tr>
+            <tr><td>+1</td><td>Thief</td></tr>
+            <tr><td>+2</td><td>Hunter</td></tr>
+            <tr><td>+4</td><td>Big Boss</td></tr>
+          </table>
+        </div>
+        </div>
+      </div>
+      </div>
+  </div>
+  </div>
+  <div id="wealth" class="tab-content">
+  <div class="skill-item" data-category="wealth">
+    <div class="category-description">
+      <h2>Wealth</h2>
+      <p>
+          Wealth is a unique Skill which does not fit into any of the other three categories, has some unusual applications, and has ramifications on character creation for determining
+          what items an investigator has access to. The Wealth skill is the only Skill that is not affected by <strong>Composure</strong>.
+      </p>
+
+      <p>Wealth is a measure of a character's wealth and means. It does not count as an Interpersonal, Knowledge, or Physical skill. Use this Skill when buying things, bribing a
+        security guard or cop to look the other way, or helping an informant jog his memory. Wealth can also be used as a Knowledge Skill for things such as knowing where the
+        classiest restaurants in town are, recognizing an expensive designer brand, or generally knowing the ins and outs of celebrity and an upper class lifestyle. </p>
+      <p>
+        Unlike with any other Skill, Wealth may be used in reverse (a +1 becomes a -1, a -2 becomes a +2, etc.) to roll for knowledge
+        that a character might obtain from living in poverty, such as where the best places to get the cheapest meals are, what streets are safest to walk down at night, who frequents the
+        local homeless shelters and soup kitchens, etc
+      </p>
+      <p><em>Within reason</em>, the Wealth Skill can also be rolled to purchase useful items. When rolling the Wealth Skill in this way, subtract half the Wealth
+        Point cost (rounding down, to a minimum of 0) of the desired item from the roll. The results of this are as follows:</p>
+        <div class="inset-box2">
+          <p><strong>Full Success</strong>: They can afford it no problem.</p>
+          <p><strong>Partial Success</strong>: They are able to buy the item, but with a consequence. Here are some suggestions:</p>
+              <ul class="list">
+                  <li>They may be able to just barely afford it, but going through with the purchase might mean financial hardship, leading to an immediate Poverty <strong>Composure</strong> Roll.</li>
+                  <li>They can only find or afford the cheaper, crappier version of the desired item. If the Narrator has no
+                    particular plan or idea for how a “cheap and crappy” item is prone to failure, they can simply roll a D6 every time the item is used. On a 6, it breaks. </li>
+                  <li>The item will take an inconveniently long time to be created or delivered when time is of the essence.</li>
+                </ul>
+          <p><strong>Failure</strong>: They can't afford it, or at least aren't liquid enough right now to do so. Maybe their card is declined, or maybe their bank flagged a suspicious purchase and
+            froze the card. They must also immediately make a Poverty <strong>Composure</strong> Roll.</p>
+        </div>
+      <p><em>Within reason</em>, Wealth may also be used to check if an investigator already has a particular useful item in a <strong>Secured inventory</strong> space such as in a vehicle or home.
+       When rolling Wealth in this way, subtract half the Wealth Point cost (rounding down, to a minimum of 0), then apply the Property modifier
+       of the home or vehicle. These useful items don't magically appear. In the narrative of the game, they were bought beforehand and the investigator
+       is just remembering that they have them. Investigators will have to physically return to their vehicle or home to retrieve these items.
+      </p>
+       <div class="inset-box2">
+          <p><strong>Full Success</strong>: Add the item to the investigators Secured Inventory.</p>
+          <p><strong>Partial Success</strong>: Add the item to the investigators Secured Inventory, but like with purchasing items, there will be some drawback. </p>
+          <p><strong>Failure</strong>: Do not add the item to the investigators Secured Inventory. Maybe they couldn't afford it, lost it, or had to sell it to make rent some time before the adventure
+            started. Unlike when purchasing items directly, they do not have to make a Poverty <strong>Composure</strong> Roll.</p>
+        </div>
+      </div>
+      </div>
+  </div>
+  </div>
+  <h2>Write In Skills</h2>
+  <p>On an investigator's character sheet, there are blank spaces that may optionally be filled in with Write-in Skills. These Skills represent more specific fields of knowledge that
+    are not covered by the general Skill list. There are 14 official Write-in skills: Ancient Language (Knowledge), Boating (Physical), Cooking (Knowledge), Forgery (Knowledge),
+    Heavy Machinery (Physical), History (Knowledge), Language (Knowledge), Law (Knowledge), Lock Picking (Physical), Pickpocketing (Physical), Piloting, Airplane (Physical), 
+    Piloting, Helicopter (Physical), Religion (Knowledge), and Riding (Physical). For a full description of all write-in skills, browse the attached pdf or pages 166-174 on the 
+    full Eureka Rulebook
+  </p>
+  <div class="para-break"></div>
+  <p>
+    At the Narrator's discretion, a player may make a new Write-in Skill if they know their character should be skilled at something that is not represented by anything
+    else in the rulebook. An investigator may have any number of Write-in Skills, but a Write-in skill must have a rating of at least +1 and this counts towards the total of an investigator's Skill
+    ratings, which must always be zero. <em>Any character can try to use a Write-in Skill listed below that they do not have (or any
+    specific skillset that does not fit well under any existing Skill). If they do, instead use whatever Skill on their sheet seems to fit best, but with a -3 penalty</em>.
+  </p>
+  <div class="pdf-container">
+  <a href="/pdf/write-in-skills.pdf" download class="pdf-download">
+    📥 Download Write in Skills (PDF)
+  </a>
+  <iframe src="/pdf/write-in-skills.pdf" 
+          class="pdf-viewer"
+          loading="lazy"
+          title="Write in Skills">
+  </iframe>
+  </div>
+  <h2>Traits</h2>
+  <p>
+    Investigators can be all kinds of different people from any imaginable walk of life. Instead of trying to squeeze a character concept into or out of a “class” or 
+    “playbook,” Eureka opts for a much more modular system. With Traits, the unique personality of the investigator
+    becomes the way they are played (narratively and mechanically). Investigators must have at least three Traits, but may have up to six. <em>However, each additional
+    Trait past the third will increase the number of Investigation Points they need to get a Eureka! by 3.</em>
+  </p>
+  <div class="para-break"></div>
+  <p>
+    A Skill roll can be modified by multiple Traits at once and this is not a conflict, even if one is a bonus and the other is a penalty. However, an investigator's Base modifier in a
+    Skill should never be +5 or higher after applying non-supernatural Traits, as this represents a superhuman level of ability. This won't come up often, but if an
+    investigator has two of these Traits which grant a +1 Base modifier to the same Skill, they should have a maximum rating of +2 in that Skill instead of +3.
+  </p>
+  <div class="para-break"></div>
+  <p>
+    There are dozens of unique traits with different benefits and penalties for your investigator. For ease of navigation, the full list of traits is attached as a pdf below.
+    Your GM may choose to add all traits chosen by player characters to the Compendium for ease of navigation, at which point this section will be updated to provide those links.
+  </p>
+    <div class="pdf-container">
+  <a href="/pdf/trait-list.pdf" download class="pdf-download">
+    📥 Download Trait List (PDF)
+  </a>
+  <iframe src="/pdf/trait-list.pdf" 
+          class="pdf-viewer"
+          loading="lazy"
+          title="Trait List">
+  </iframe>
+  </div>
+</section>
+<script src="js/scripts.js"></script> 
+</body>
+</html> 
